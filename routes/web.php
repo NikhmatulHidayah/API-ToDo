@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\web_controller;
 
-Route::get('/todo', function () {
+Route::get('/', function () {
     return view('todo-all');
 });
 
